@@ -1,0 +1,19 @@
+.primary {
+  stroke: black;
+  fill: white;
+}
+
+.secondary {
+  fill: black;
+  stroke: black;
+}
+
+.inverted .primary {
+  stroke: black;
+  fill: black;
+}
+
+.inverted .secondary {
+  fill: white;
+  stroke: white;
+}

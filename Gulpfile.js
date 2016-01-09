@@ -5,7 +5,7 @@ var del = require("del"),
     svgmin = require("gulp-svgmin"),
     path = require("path");
 
-gulp.task("clean", () => {
+gulp.task("clean", function() {
     return del([
         "dist/**/*"
     ]);
@@ -18,15 +18,13 @@ gulp.task("export", shell.task([
         + path.resolve(__dirname, "src") + " "
 ]));
 
-gulp.task("svg", () => {
+gulp.task("svg", function() {
     return gulp.src("dist/**/*.svg")
         .pipe(svgmin())
         .pipe(gulp.dest("dist"));
 });
 
-gulp.task("default", done => {
-    runSequence("clean", "export", "svg", done);
-});
+gulp.task("default", ["clean", "export", "svg"]);
 
 
 

@@ -1,10 +1,10 @@
 {
   "name": "ibm-design-icons",
-  "version": "1.0.0",
+  "version": "2.0.1",
   "description": "IBM Icons",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "engines": {
     "node": "^5.1.0"
@@ -28,6 +28,7 @@
     "del": "^2.1.0",
     "gulp": "^3.9.0",
     "gulp-shell": "^0.5.1",
+    "gulp-svgmin": "^1.2.0",
     "run-sequence": "^1.1.5"
   }
 }

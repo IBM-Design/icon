@@ -50,7 +50,7 @@ $ gulp
 
 Please read the [contributing guide](CONTRIBUTING.md).
 
-**N.B.** If you make updates to the exporting scripts, please do not commit any changes to the dist folder. That will be hanlded on new releases.
+**N.B.** If you make updates to the exporting scripts, please do not commit any changes to the dist folder. That will be handled on new releases.
 
 ## License
 
